@@ -27,7 +27,7 @@
     cd Projetos-em-CSharp/HoraData/bin
     ./HoraData.exe
 
-#### Caso queira compilar o programa, seguir os passos abaixo:
+#### Caso queira compilar o programa, seguir os passos abaixo (utilizando o mono):
 
     git clone https://github.com/Wolfterro/Projetos-em-CSharp.git
     cd Projetos-em-CSharp/HoraData/src
