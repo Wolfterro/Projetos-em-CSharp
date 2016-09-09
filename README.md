@@ -33,3 +33,32 @@
     cd Projetos-em-CSharp/HoraData/src
     mcs HoraData.cs -win32icon:Icon.ico
     ./HoraData.exe
+
+## Beep: O programa que bipa!
+
+### Descrição:
+
+#### Este é um simples programa que faz bipar o auto-falante do computador.
+#### O programa funciona de dois modos: Modo Toque e Modo Constante.
+#### O Modo Toque permite que o usuário faça bipar o auto-falante quando ele utilizar o teclado, permitindo inserir ritmos.
+#### O Modo Constante faz o console bipar constantemente até o programa ser encerrado.
+#### Este não é um programa sério, fiz apenas para uma brincadeira na sala de aula.
+
+### Requisitos:
+- ***Windows:*** Microsoft .NET Framework 4.0 ou mais recente
+- ***Linux/Outros:*** Mono 4.0 ou mais recente
+
+### Download:
+
+#### Utilize o git para clonar o repositório e executar o binário:
+
+    git clone https://github.com/Wolfterro/Projetos-em-CSharp.git
+    cd Projetos-em-CSharp/Beep/bin
+    ./Beep.exe
+
+#### Caso queira compilar o programa, seguir os passos abaixo (utilizando o mono):
+
+    git clone https://github.com/Wolfterro/Projetos-em-CSharp.git
+    cd Projetos-em-CSharp/Beep/src
+    mcs Beep.cs -win32icon:Beep-Icon.ico
+    ./Beep.exe
