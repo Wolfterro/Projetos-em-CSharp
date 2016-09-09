@@ -24,7 +24,7 @@ SOFTWARE.
 
 using System;
 
-namespace Teste {
+namespace BeepBeep {
 	public class MainClass {
 		public static int ChooseFreq() {
 			int freq;
