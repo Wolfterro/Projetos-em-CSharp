@@ -39,9 +39,15 @@
 ### Descrição:
 
 #### Este é um simples programa que faz bipar o auto-falante do computador.
-#### O programa funciona de dois modos: Modo Toque e Modo Constante.
+#### O programa funciona de três modos: Modo Toque, Modo Constante e Modo Teclado.
 #### O Modo Toque permite que o usuário faça bipar o auto-falante quando ele utilizar o teclado, permitindo inserir ritmos.
 #### O Modo Constante faz o console bipar constantemente até o programa ser encerrado.
+<br />
+#### O Modo Teclado, diferente do Modo Toque, faz com que cada tecla tenha uma frequência específica, permitindo que você o use como "teclado musical".
+#### As teclas QWERTYUIOP possuem variação de 500 hertz da esquerda para direita, isto é, a menor sendo a tecla Q e a maior a tecla P.
+#### As demais teclas com caracteres possuem variação de 200 hertz, pulando as teclas que já possuem variação de 500 hertz. Começando com a tecla A e terminando na tecla M. Verifique o código-fonte para saber qual frequência cada tecla possui.
+#### Demais teclas possuem frequência de 800 hertz!
+<br />
 #### Este não é um programa sério, fiz apenas para uma brincadeira na sala de aula.
 
 ### Requisitos:
