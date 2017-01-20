@@ -63,6 +63,7 @@ namespace PCSpecs
 		
 		public static void Main(string[] args) 
 		{
+			string version = "1.0";
 			bool createFile = false;
 
 			if (args.Length == 1) {
