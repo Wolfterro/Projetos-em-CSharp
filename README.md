@@ -68,3 +68,24 @@
     cd Projetos-em-CSharp/Beep/src
     mcs Beep.cs -win32icon:Beep-Icon.ico
     ./Beep.exe
+
+## PCSpecs
+
+### Descrição:
+
+#### Este é um simples programa que possui a função de mostrar algumas especificações do PC para o usuário.
+#### O programa utiliza o terminal ou prompt de comando do usuário para mostrar as especificações para o usuário, como a versão do sistema, a versão da CLR e se o sistema é 64-bit.
+#### O programa também poderá criar um arquivo de texto com as especificações, caso utilize o argumento '-f' ou '--file'.
+
+### Requisitos:
+- ***Windows:*** Microsoft .NET Framework 4.0 ou mais recente
+- ***Linux/Outros:*** Mono 4.0 ou mais recente
+
+### Download:
+
+#### Utilize o git para clonar o repositório e o mcs/csc para compilar o programa (exemplo utilizando o mono):
+
+    git clone https://github.com/Wolfterro/Projetos-em-CSharp.git
+    cd Projetos-em-CSharp/PCSpecs/src
+    mcs PCSpecs.cs
+    ./PCSpecs.exe
