@@ -89,3 +89,23 @@
     cd Projetos-em-CSharp/PCSpecs/src
     mcs PCSpecs.cs
     ./PCSpecs.exe
+
+## Light-Year Converter
+
+### Descrição:
+
+#### Este é um simples programa que possui a função de converter quilômetros para anos-luz e vice-versa.
+#### O programa utiliza o terminal ou prompt de comando do usuário para realizar as conversões e mostrar o resultado para o usuário.
+
+### Requisitos:
+- ***Windows:*** Microsoft .NET Framework 4.0 ou mais recente
+- ***Linux/Outros:*** Mono 4.0 ou mais recente
+
+### Download:
+
+#### Utilize o git para clonar o repositório e o mcs/csc para compilar o programa (exemplo utilizando o mono):
+
+    git clone https://github.com/Wolfterro/Projetos-em-CSharp.git
+    cd Projetos-em-CSharp/LightYearConverter/src
+    mcs LightYearConverter.cs -r:System.Numerics.dll
+    ./LightYearConverter.exe
