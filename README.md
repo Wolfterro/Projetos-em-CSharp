@@ -109,3 +109,33 @@
     cd Projetos-em-CSharp/LightYearConverter/src
     mcs LightYearConverter.cs -r:System.Numerics.dll
     ./LightYearConverter.exe
+
+## Beepson: Siga a sequência!
+
+### Descrição:
+
+#### Este é um simples jogo no estilo [Simon](https://en.wikipedia.org/wiki/Simon_(game)) mas que utiliza os sons do Windows (beeps do console) e as teclas correspondentes para inserir a sequência de comandos necessária.
+<br />
+#### O jogo utiliza quatro teclas: A, S, D e F. 
+#### Cada tecla possui um som diferente. Quando o computador emitir a sequência desejada, o jogador deverá inserir as teclas correspondentes.
+<br />
+#### A medida que as fases vão passando, o jogo vai ficando cada vez mais difícil e levemente mais rápido (apesar de ser difícil notar nas primeiras fases).
+
+### Requisitos:
+- ***Windows:*** Microsoft .NET Framework 4.0 ou mais recente
+- ***Linux/Outros:*** Mono 4.0 ou mais recente
+
+### Download:
+
+#### Utilize o git para clonar o repositório e executar o binário:
+
+    git clone https://github.com/Wolfterro/Projetos-em-CSharp.git
+    cd Projetos-em-CSharp/Beepson/bin
+    ./Beepson.exe
+
+#### Caso queira compilar o programa, seguir os passos abaixo (utilizando o mono):
+
+    git clone https://github.com/Wolfterro/Projetos-em-CSharp.git
+    cd Projetos-em-CSharp/Beepson/src
+    mcs Beepson.cs -win32icon:Beepson-Icon.ico
+    ./Beepson.exe
