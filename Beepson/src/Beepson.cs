@@ -41,8 +41,8 @@ namespace Beepson
 	
 	// Classe principal do programa.
 	// =============================
-    class MainClass
-    {
+	class MainClass
+	{
 		
 		// Bipa de acordo com a entrada na sequência sorteada ou do jogador.
 		// =================================================================
@@ -143,64 +143,64 @@ namespace Beepson
 		
 		// Instruções de jogo, mostrando os sons das teclas.
 		// =================================================
-        static void BeepsonInstructions()
-        {
-            bool repeat = true;
+		static void BeepsonInstructions()
+		{
+			bool repeat = true;
 
-            do
-            {
+			do
+			{
 				Console.WriteLine("Aqui estão as instruções:");
 				Console.WriteLine("-------------------------");
 			
-                Console.WriteLine("Tecla (A) produz este som...");
-                Console.Beep(500, 1000);
-                Thread.Sleep(2000);
+				Console.WriteLine("Tecla (A) produz este som...");
+				Console.Beep(500, 1000);
+				Thread.Sleep(2000);
 
-                Console.WriteLine("Tecla (S) produz este som...");
-                Console.Beep(2500, 1000);
-                Thread.Sleep(2000);
+				Console.WriteLine("Tecla (S) produz este som...");
+				Console.Beep(2500, 1000);
+				Thread.Sleep(2000);
 
-                Console.WriteLine("Tecla (D) produz este som...");
-                Console.Beep(4500, 1000);
-                Thread.Sleep(2000);
+				Console.WriteLine("Tecla (D) produz este som...");
+				Console.Beep(4500, 1000);
+				Thread.Sleep(2000);
 
-                Console.WriteLine("Tecla (F) produz este som...\n");
-                Console.Beep(6500, 1000);
-                Thread.Sleep(2000);
+				Console.WriteLine("Tecla (F) produz este som...\n");
+				Console.Beep(6500, 1000);
+				Thread.Sleep(2000);
 
-                Console.Write("Deseja repetir as instruções? [s/N]: ");
-                if (Console.ReadLine().ToUpper() != "S") {
-                    repeat = false;
-                } 
+				Console.Write("Deseja repetir as instruções? [s/N]: ");
+				if (Console.ReadLine().ToUpper() != "S") {
+					repeat = false;
+				} 
 				else {
 					Console.Clear();
 				}
 
-            } while (repeat);
+			} while (repeat);
 
-            Console.WriteLine("\nEntão você está pronto para o jogo!");
+			Console.WriteLine("\nEntão você está pronto para o jogo!");
 			Console.WriteLine("Pressione ENTER para continuar...");
-            Console.ReadLine();
+			Console.ReadLine();
 			Console.Clear();
-        }
+		}
 
 		// Método principal do programa.
 		// =============================
-        static void Main(string[] args)
-        {
-            string version = "1.0";
+		static void Main(string[] args)
+		{
+			string version = "1.0";
 
-            Console.WriteLine("====================");
-            Console.WriteLine("Beepson - Versão {0}", version);
-            Console.WriteLine("====================\n");
+			Console.WriteLine("====================");
+			Console.WriteLine("Beepson - Versão {0}", version);
+			Console.WriteLine("====================\n");
 
-            Thread.Sleep(1000);
-            BeepsonInstructions();
+			Thread.Sleep(1000);
+			BeepsonInstructions();
 			
 			while(BeepsonGame()) {
 				ScoreBoard.level += 1;
 				ScoreBoard.points += 10;
 			}
-        }
-    }
+		}
+	}
 }
