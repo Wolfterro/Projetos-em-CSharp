@@ -139,3 +139,34 @@
     cd Projetos-em-CSharp/Beepson/src
     mcs Beepson.cs -win32icon:Beepson-Icon.ico
     ./Beepson.exe
+
+## Trump.cs - Construa seu próprio muro!
+
+#### *** Este programa é apenas fruto de uma simples brincadeira aliada ao ócio de um programador, por favor não leve a sério! ***
+#### Este é um simples programa que, ao ser executado, irá criar um "muro" em seu terminal.
+#### Para encerrar o programa, basta apertar CTRL + C e ele irá dizer o tamanho do muro que você construiu.
+#### Versão original escrita em C: [Projetos em C](https://github.com/Wolfterro/Projetos-em-C)
+
+#### Aqui está uma lista com os possíveis argumentos:
+      
+      Opções:
+      -------
+      '-h' ou '--help':                   Mostra o menu de ajuda.
+      
+      Cores:
+      ------
+      '-rw' ou '--red-wall':              Constrói um muro vermelho.
+      '-gw' ou '--green-wall':            Constrói um muro verde.
+      '-yw' ou '--yellow-wall':           Constrói um muro amarelo.
+      '-bw' ou '--blue-wall':             Constrói um muro azul.
+      '-mw' ou '--magenta-wall':          Constrói um muro magenta.
+      '-cw' ou '--cyan-wall':             Constrói um muro ciano.
+      '-ww' ou '--white-wall':            Constrói um muro branco.
+
+### Download:
+#### Assim como o muro, você também precisa "construir" o programa, isto é, compilar (utilizando o mono).
+
+    git clone https://github.com/Wolfterro/Projetos-em-CSharp.git
+    cd Projetos-em-CSharp/Trump/src
+    mcs Trump.cs
+    ./Trump.exe
