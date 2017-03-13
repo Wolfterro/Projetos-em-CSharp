@@ -170,3 +170,25 @@
     cd Projetos-em-CSharp/Trump/src
     mcs Trump.cs
     ./Trump.exe
+
+## Logging
+
+### Descrição:
+
+#### Este é um simples programa que possui a função de catalogar alguns eventos dentro do programa para um arquivo de log padrão (Log.txt) ou um arquivo escolhido pelo usuário.
+#### Este programa serve apenas como um exemplo de código para uma implementação simples de Logging em programas escritos na linguagem C#, recomendado para projetos pequenos e simples.
+
+### Requisitos:
+- ***Windows:*** Microsoft .NET Framework 4.0 ou mais recente
+- ***Linux/Outros:*** Mono 4.0 ou mais recente
+
+### Download:
+
+#### Utilize o git para clonar o repositório (exemplo utilizando o Linux com mono instalado):
+
+    git clone https://github.com/Wolfterro/Projetos-em-CSharp.git
+    cd Projetos-em-CSharp/Logging
+    ./build.sh
+    ./Logging.exe
+
+#### Caso queira compilar utilizando o Windows, basta executar o arquivo build.bat e o programa será compilado (requer que o csc seja reconhecido como comando interno no prompt).
